@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "translations",
+  "info": {
+    "name": "translations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "code": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
