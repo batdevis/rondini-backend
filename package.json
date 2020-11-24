@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "strapi-provider-upload-cloudinary": "^3.3.3"
+  },
   "dependencies": {
     "strapi": "3.3.3",
     "strapi-admin": "3.3.3",
