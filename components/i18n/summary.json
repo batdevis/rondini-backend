@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_summaries",
+  "info": {
+    "name": "summary",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "text"
+    },
+    "it": {
+      "type": "text"
+    },
+    "de": {
+      "type": "text"
+    }
+  }
+}

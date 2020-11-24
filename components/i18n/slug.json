@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_i18n_slugs",
+  "info": {
+    "name": "slug",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "string",
+      "unique": false
+    },
+    "it": {
+      "type": "string",
+      "unique": false
+    },
+    "de": {
+      "type": "string"
+    }
+  }
+}

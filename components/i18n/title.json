@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_titles",
+  "info": {
+    "name": "title",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "string"
+    },
+    "it": {
+      "type": "string"
+    },
+    "de": {
+      "type": "string"
+    }
+  }
+}

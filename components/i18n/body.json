@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_bodies",
+  "info": {
+    "name": "body",
+    "icon": "dungeon"
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "richtext"
+    },
+    "it": {
+      "type": "richtext"
+    },
+    "de": {
+      "type": "richtext"
+    }
+  }
+}
