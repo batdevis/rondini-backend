@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "pages",
   "info": {
-    "name": "pages"
+    "name": "pages",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,6 +15,26 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.title"
+    },
+    "summary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.summary"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.body"
+    },
+    "slug": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.slug"
     }
   }
 }
