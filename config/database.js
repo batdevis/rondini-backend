@@ -10,7 +10,8 @@ module.exports = ({ env }) => ({
         database: env('DATABASE_NAME', 'postgres'),
         username: env('DATABASE_USERNAME', 'postgres'),
         password: env('DATABASE_PASSWORD', 'postgres'),
-        ssl: env.bool('DATABASE_SSL', false),
+        ssl: { "rejectUnauthorized": false }
+        //ssl: env.bool('DATABASE_SSL', false),
       },
       options: {}
     },
