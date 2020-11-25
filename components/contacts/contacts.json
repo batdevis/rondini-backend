@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "adress": {
+    "address": {
       "type": "component",
       "repeatable": true,
       "component": "contacts.address"
