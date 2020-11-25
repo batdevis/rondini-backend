@@ -9,9 +9,7 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {
-    "strapi-provider-upload-cloudinary": "^3.3.3"
-  },
+  "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
     "pg": "^8.5.1",
@@ -23,6 +21,7 @@
     "strapi-plugin-email": "3.3.3",
     "strapi-plugin-upload": "3.3.3",
     "strapi-plugin-users-permissions": "3.3.3",
+    "strapi-provider-upload-cloudinary": "^3.3.4",
     "strapi-utils": "3.3.3"
   },
   "author": {
