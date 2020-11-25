@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "sites",
   "info": {
-    "name": "site"
+    "name": "site",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,7 +12,22 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.title"
+    },
+    "summary": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.summary"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contacts.contacts"
     }
   }
 }

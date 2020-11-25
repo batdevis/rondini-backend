@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_contacts_addresses",
+  "info": {
+    "name": "address",
+    "icon": "landmark"
+  },
+  "options": {},
+  "attributes": {
+    "address_data": {
+      "type": "text"
+    }
+  }
+}

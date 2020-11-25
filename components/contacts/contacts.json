@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_contacts_contacts",
+  "info": {
+    "name": "contacts",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "adress": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contacts.address"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_work": {
+      "type": "string"
+    },
+    "phone_mobile": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "mapurl": {
+      "type": "string"
+    },
+    "site": {
+      "type": "string"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contacts.social"
+    }
+  }
+}

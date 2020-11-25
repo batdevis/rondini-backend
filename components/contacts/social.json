@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contacts_socials",
+  "info": {
+    "name": "social",
+    "icon": "laugh"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
