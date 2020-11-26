@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deploys",
+  "info": {
+    "name": "deploys"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "notes": {
+      "type": "text"
+    }
+  }
+}
