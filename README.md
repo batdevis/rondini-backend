@@ -1,3 +1,2 @@
-# Strapi application
+# Rondini demo site Strapi backend
 
-A quick description of your strapi application
