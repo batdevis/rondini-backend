@@ -11,7 +11,7 @@ module.exports = {
       }
       //data.name = 'Some fixed name';
       const baseUrl = `https://gitlab.com/api/v4/projects/${process.env.GITLAB_PROJECT_ID}`;
-      const url = `${baseUrl}/trigger/pipeline?ref=master&token=${process.env.GITLAB_TRIGGER_TOKEN}`;
+      const url = `${baseUrl}/trigger/pipeline?ref=${process.env.GITLAB_TRIGGER_BRANCH}&token=${process.env.GITLAB_TRIGGER_TOKEN}`;
       const headers = {
         'Private-Token': process.env.GITLAB_API_KEY,
         'Content-Type': 'application/json',
