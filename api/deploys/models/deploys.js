@@ -5,7 +5,6 @@ const axios = require('axios');
 module.exports = {
   lifecycles: {
     beforeCreate(data) {
-      console.log('[Deploy] beforeCreate DEPLOY_TARGET', process.env.DEPLOY_TARGET);
       if (process.env.DEPLOY_TARGET != 'production') {
         return;
       }
