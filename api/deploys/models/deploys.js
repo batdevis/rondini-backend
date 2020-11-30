@@ -17,6 +17,7 @@ module.exports = {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       };
+      console.debug(`[Deploy] beforeCreate post ${url} {headers: ${headers}}`);
       axios.post(url, {}, {headers: headers})
         .then((result) => {
           console.log('[Deploy] beforeCreate result', result.status)}
